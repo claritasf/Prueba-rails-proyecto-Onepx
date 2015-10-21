@@ -1,14 +1,17 @@
 source 'https://rubygems.org'
 
-
-gem 'rails', '4.1.8'
-gem 'pg'
-gem 'puma'
-gem 'sass-rails', '~> 4.0.3'
-gem 'uglifier', '>= 1.3.0'
+gem 'carrierwave'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
+gem 'mini_magick'
+gem 'pg'
+gem 'puma'
+gem 'rails', '4.1.8'
+gem 'sass-rails', '~> 4.0.3'
 gem 'turbolinks'
+gem 'uglifier', '>= 1.3.0'
+
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
