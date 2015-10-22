@@ -18,3 +18,19 @@ es:
 
     create:
       created: 'La %{model} se ha creado'
+
+  sessions:
+    new:
+      log_in: 'Iniciar Sesión'
+    create:
+      logged_in: 'Se ha iniciado la sesión'
+      invalid_credentials: 'El usuario o la contraseña son incorrectos'
+    destroy:
+      logged_out: 'Se ha cerrado la sesión'
+
+  identities:
+    create:
+      sign_up: 'El usuario se ha creado con éxito'
+    new:
+      title: 'Nuevo %{model}'
+      create: 'Crear Usuario'

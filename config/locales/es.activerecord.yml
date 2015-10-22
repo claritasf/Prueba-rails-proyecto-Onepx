@@ -2,6 +2,7 @@ es:
   activerecord:
     models:
       image: 'imágen'
+      identity: 'usuario'
     
     attributes:
       image:
