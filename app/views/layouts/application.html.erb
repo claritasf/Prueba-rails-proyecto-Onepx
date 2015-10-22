@@ -7,6 +7,16 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+	<div id='user'>
+		<%- if identity_signed_in? %>
+				<span> Hola ! <%= current_identity.email %> | </span>
+				<%= link_to 'Cerrar Sesión', log_out_path, method: :delete %>
+		<%- else %>
+				<%= link_to 'Iniciar Sesión', log_in_path %> |
+				<%= link_to 'Crear Cuenta', sign_up_path %>
+		<% end %>
+	</div>
+	
 	<div id='flash'>
 		<% flash.each do |key, value| -%>
 			<div id='flash-<%= key %>'><%= value%> 
